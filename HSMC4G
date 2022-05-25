@@ -7,16 +7,8 @@
   "UrlContato": "https://t.me/Kryptovps",
   "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
   "CheckUser": "true",
-  ""Udp": [
-     {
-      "Porta": "7300"
-     },
-     {
-      "Porta": "7200"
-     },
-    {
-      "Porta": "7100"
-     }
+  "Udp":
+  "7100;7200;7300;7400;7500;7600;7800;7900;8000",
   "Servers": [
     {
       "Name": "VPS HOUSE",
@@ -270,6 +262,7 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
+    },   
     {
       "Name": "🟪VIVO [SSL5]",
       "FLAG": "vivo",
