@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.0",
+  "Version": "2.0.0",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/Kryptorvps/MC4G/main/HSMC4G",
   "Sms": "https://raw.githubusercontent.com/Kryptorvps/MC4G/main/HSMC4GSMS",
@@ -64,7 +64,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟦TIM [SSL5(]",
+      "Name": "🟦TIM [SSL5]",
       "FLAG": "tim",
       "Payload": "GET ws://cutim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "cutim.com.br",
