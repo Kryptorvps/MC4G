@@ -14,7 +14,7 @@
       "Name": "FULL HOUSE",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "fs.sathouse.us",
+      "ServerIP": "fc.sathouse.us",
       "CheckUser": "http://http://177.37.162.97:4949/check/",
       "ServerPort": "22",
       "SSLPort": "443",
