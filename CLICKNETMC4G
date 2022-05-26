@@ -3,7 +3,7 @@
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/Kryptorvps/MC4G/main/CLICKNETMC4G",
   "Sms": "https://raw.githubusercontent.com/Kryptorvps/MC4G/main/CLICKNETMC4GSMS",
-  "EmailFeedback": "jp9570750@gmail.com", 
+  "EmailFeedback": jp9570750@gmail.com", 
   "UrlContato": "https://t.me/Kryptovps",
   "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
   "CheckUser": "true",
@@ -15,7 +15,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "bc.sathouse.us",
-      "CheckUser": "",
+      "CheckUser": "https://v30.fr3nds.xyz/checkduration.php",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -262,6 +262,7 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
+    },   
     {
       "Name": "🟪VIVO [SSL5]",
       "FLAG": "vivo",
