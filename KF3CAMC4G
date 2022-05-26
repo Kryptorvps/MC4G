@@ -14,7 +14,18 @@
       "Name": "KF3CA",
       "TYPE": "premium",
       "FLAG": "ca.png",
-      "ServerIP": "cc.k3n.me",
+      "ServerIP": "cc.kf3.site",
+      "CheckUser": "http://cs.k3n.me:4949/check/",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "KF3CA2",
+      "TYPE": "premium",
+      "FLAG": "ca.png",
+      "ServerIP": "cc.kf3.cc",
       "CheckUser": "http://cs.k3n.me:4949/check/",
       "ServerPort": "22",
       "SSLPort": "443",
@@ -166,7 +177,7 @@
     {
       "Name": "🟪VIVO [WS1]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: cc.kf3.cc[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.7.80",
@@ -176,7 +187,7 @@
     {
       "Name": "🟪VIVO [WS2]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: cc.kf3.cc[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "vigia.vivo.com.br",
@@ -186,7 +197,7 @@
     {
       "Name": "🟪VIVO [WS3]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: cc.kf3.cc[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "vivo360.vivo.com.br",
@@ -196,7 +207,7 @@
     {
       "Name": "🟪VIVO [WS4]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: cc.kf3.cc[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.6.80",
@@ -206,7 +217,7 @@
     {
       "Name": "🟪VIVO [WS5]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: cc.kf3.cc[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.18.94",
@@ -216,7 +227,7 @@
     {
       "Name": "🟪VIVO [WS6]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: cc.kf3.cc[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.19.94",
