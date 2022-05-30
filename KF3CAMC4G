@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.0",
+  "Version": "2.0.0",
   "ReleaseNotes": "Nova Atualização Disponível",
   "UrlUpdate": "https://raw.githubusercontent.com/Kryptorvps/MC4G/main/KF3CAMC4",
   "Sms": "https://raw.githubusercontent.com/Kryptorvps/MC4G/main/KF3CAMC4SMS",
@@ -15,6 +15,17 @@
       "TYPE": "premium",
       "FLAG": "ca.png",
       "ServerIP": "cc.kf3.site",
+      "CheckUser": "http://cs.k3n.me:4949/check/",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "KF3CA2",
+      "TYPE": "premium",
+      "FLAG": "ca.png",
+      "ServerIP": "cc.kf3.cc",
       "CheckUser": "http://cs.k3n.me:4949/check/",
       "ServerPort": "22",
       "SSLPort": "443",
@@ -166,7 +177,7 @@
     {
       "Name": "🟪VIVO [WS1]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: cc.kf3.cc[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.7.80",
@@ -176,7 +187,7 @@
     {
       "Name": "🟪VIVO [WS2]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: cc.kf3.cc[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "vigia.vivo.com.br",
@@ -186,7 +197,7 @@
     {
       "Name": "🟪VIVO [WS3]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: cc.kf3.cc[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "vivo360.vivo.com.br",
@@ -196,7 +207,7 @@
     {
       "Name": "🟪VIVO [WS4]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: cc.kf3.cc[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.6.80",
@@ -206,7 +217,7 @@
     {
       "Name": "🟪VIVO [WS5]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: cc.kf3.cc[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.18.94",
@@ -216,7 +227,7 @@
     {
       "Name": "🟪VIVO [WS6]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: cc.kf3.cc[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.19.94",
@@ -276,6 +287,36 @@
     {
       "Name": "🟥CLARO [SSL1]",
       "FLAG": "claro",
+      "Payload": "GET wss://boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "boom4u.com.br",
+      "TlsIP": "boom4u.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟥CLARO [SSL2]",
+      "FLAG": "claro",
+      "Payload": "GET wss://www.boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.boom4u.com.br",
+      "TlsIP": "www.boom4u.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟥CLARO [SSL3]",
+      "FLAG": "claro",
+      "Payload": "GET wss://www.boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.boom4u.com.br",
+      "TlsIP": "172.67.201.105",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟥CLARO [SSL4]",
+      "FLAG": "claro",
       "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
@@ -284,7 +325,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥CLARO [SSL2]",
+      "Name": "🟥CLARO [SSL5]",
       "FLAG": "claro",
       "Payload": "GET ssl://gersonclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "gersonclaro.com.br",
@@ -294,7 +335,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥CLARO [SSL3]",
+      "Name": "🟥CLARO [SSL6]",
       "FLAG": "claro",
       "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
@@ -304,7 +345,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥CLARO [SSL4]",
+      "Name": "🟥CLARO [SSL7]",
       "FLAG": "claro",
       "Payload": "GET wss://carrorioclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "carrorioclaro.com.br",
@@ -314,7 +355,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥CLARO [SSL5]",
+      "Name": "🟥CLARO [SSL8]",
       "FLAG": "claro",
       "Payload": "GET ssl://chaveiroclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "chaveiroclaro.com.br",
@@ -324,7 +365,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥CLARO [SSL6]",
+      "Name": "🟥CLARO [SSL9]",
       "FLAG": "claro",
       "Payload": "GET wss://parceirosclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "parceirosclaro.com.br",
@@ -334,7 +375,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥CLARO [SSL7]",
+      "Name": "🟥CLARO [SSL10]",
       "FLAG": "claro",
       "Payload": "GET wss://fozrioclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "fozrioclaro.com.br",
@@ -344,7 +385,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥CLARO TIM OI SSL8]",
+      "Name": "🟥CLARO TIM OI SSL11]",
       "FLAG": "claro",
       "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
@@ -354,7 +395,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥CLARO TIM OI [SSL9]",
+      "Name": "🟥CLARO TIM OI [SSL12]",
       "FLAG": "claro",
       "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
@@ -364,7 +405,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥CLARO TIM OI [SSL10]",
+      "Name": "🟥CLARO TIM OI [SSL13]",
       "FLAG": "claro",
       "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
@@ -435,6 +476,26 @@
     },
     {
       "Name": "🟧OI [WS5]",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.51.91",
+      "ProxyPort": "80",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟧OI [WS6]",
+      "FLAG": "oi",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.52.91",
+      "ProxyPort": "80",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟧OI [WS8]",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "",
