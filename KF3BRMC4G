@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.0",
-  "ReleaseNotes": "Nova Atualização Disponível",
+  "Version": "2.0.0",
+  "ReleaseNotes": "Nova Atualização Disponível 2.0",
   "UrlUpdate": "https://raw.githubusercontent.com/Kryptorvps/MC4G/main/KF3BRMC4G",
   "Sms": "https://raw.githubusercontent.com/Kryptorvps/MC4G/main/KF3BRMC4GSMS",
   "EmailFeedback": ulimitednetwork@gmail.com", 
@@ -289,7 +289,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: wss[crlf]Connection: Connection: Keep-Live\nUser-Agent:[ua]\nReferer: [lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
+      "ProxyIP": "162.159.135.63",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -299,7 +299,7 @@
       "Payload": "GET / HTTP/1.1[lf]Host:[app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
+      "ProxyIP": "162.159.135.63",
       "ProxyPort": "8880",
       "Info": "Proxy"
     },
@@ -319,7 +319,7 @@
       "Payload": "GET / HTTP/1.1[lf]Host:[app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.6.80",
+      "ProxyIP": "104.18.7.80",
       "ProxyPort": "2082",
       "Info": "Proxy"
     },
@@ -349,7 +349,7 @@
       "Payload": "GET / HTTP/1.1\nHost: [app_host][\nUpgrade: ws\n\n",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.6.80",
+      "ProxyIP": "162.159.136.63",
       "ProxyPort": "2095",
       "Info": "Proxy"
     },
@@ -359,7 +359,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.6.80",
+      "ProxyIP": "162.159.136.63",
       "ProxyPort": "8080",
       "Info": "Proxy"
     },
@@ -379,7 +379,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.19.94",
+      "ProxyIP": "104.16.18.94",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -396,81 +396,31 @@
     {
       "Name": "🟪V [SSL2]",
       "FLAG": "vivo",
-      "Payload": "GET wss://Vigia.vivo.com.br HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-      "SNI": "Vigia.vivo.com.br",
-      "TlsIP": "104.18.7.80",
+      "Payload": "GET wss://autenticaint.vivo.com.br HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "SNI": "autenticaint.vivo.com.br",
+      "TlsIP": "162.159.135.63",
       "ProxyIP": "",
-      "ProxyPort": "2053",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
       "Name": "🟪V [SSL3]",
       "FLAG": "vivo",
-      "Payload": "GET wss://Vigia.vivo.com.br HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-      "SNI": "Vigia.vivo.com.br",
-      "TlsIP": "104.18.7.80",
+      "Payload": "GET wss://vivoemdia.vivo.com.br HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "SNI": "vivoemdia.vivo.com.br",
+      "TlsIP": "162.159.136.63",
       "ProxyIP": "",
-      "ProxyPort": "2083",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
       "Name": "🟪V [SSL4]",
-      "FLAG": "vivo",
-      "Payload": "GET wss://Vigia.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "Vigia.vivo.com.br",
-      "TlsIP": "104.18.7.80",
-      "ProxyIP": "",
-      "ProxyPort": "2087",
-      "Info": "Tlsws"
-    },
-     {
-      "Name": "🟪V [SSL5]",
       "FLAG": "vivo",
       "Payload": "GET wss://vivo360.vivo.com.br HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
       "SNI": "vivo360.vivo.com.br",
       "TlsIP": "104.18.6.80",
       "ProxyIP": "",
       "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🟪V [SSL6]",
-      "FLAG": "vivo",
-      "Payload": "GET wss://vivo360.vivo.com.br HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-      "SNI": "vivo360.vivo.com.br",
-      "TlsIP": "104.18.6.80",
-      "ProxyIP": "",
-      "ProxyPort": "2053",
-      "Info": "Tlsws"
-    },
-         {
-      "Name": "🟪V [SSL7]",
-      "FLAG": "vivo",
-      "Payload": "GET wss://vivo360.vivo.com.br HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-      "SNI": "vivo360.vivo.com.br",
-      "TlsIP": "104.18.6.80",
-      "ProxyIP": "",
-      "ProxyPort": "2083",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🟪V [SSL8]",
-      "FLAG": "vivo",
-      "Payload": "GET wss://vivo360.vivo.com.br HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-      "SNI": "vivo360.vivo.com.br",
-      "TlsIP": "104.18.6.80",
-      "ProxyIP": "",
-      "ProxyPort": "2087",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🟪V [SSL9]",
-      "FLAG": "vivo",
-      "Payload": "GET wss://vivo360.vivo.com.br HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-      "SNI": "vivo360.vivo.com.br",
-      "TlsIP": "104.18.6.80",
-      "ProxyIP": "",
-      "ProxyPort": "2096",
       "Info": "Tlsws"
     },
     {
@@ -486,9 +436,9 @@
    {
       "Name": "🟥C [SSL2]",
       "FLAG": "claro",
-      "Payload": "GET wss://boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "boom4u.com.br",
-      "TlsIP": "172.67.201.105",
+      "Payload": "GET wss://icanhazip.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "icanhazip.com",
+      "TlsIP": "icanhazip.com",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
