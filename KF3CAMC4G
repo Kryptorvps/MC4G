@@ -256,7 +256,7 @@
     {
       "Name": "🟪V [WS1]",
       "FLAG": "vivo",
-      "Payload": "GET /HTTP/1.1[crlf]Host:[app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[lf][lf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host:[app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.7.80",
