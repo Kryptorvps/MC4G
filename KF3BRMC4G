@@ -1,6 +1,6 @@
 {
-  "Version": "2.0.0",
-  "ReleaseNotes": "Nova Atualização Disponível 2.0",
+  "Version": "3.0.0",
+  "ReleaseNotes": "Nova Atualização Disponível 3.0",
   "UrlUpdate": "https://raw.githubusercontent.com/Kryptorvps/MC4G/main/KF3BRMC4G",
   "Sms": "https://raw.githubusercontent.com/Kryptorvps/MC4G/main/KF3BRMC4GSMS",
   "EmailFeedback": ulimitednetwork@gmail.com", 
@@ -290,7 +290,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "162.159.135.63",
-      "ProxyPort": "80",
+      "ProxyPort": "2052",
       "Info": "Proxy"
     },
     {
