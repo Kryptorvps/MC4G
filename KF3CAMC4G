@@ -1,6 +1,6 @@
 {
   "Version": "2.0.0",
-  "ReleaseNotes": "Nova Atualização Disponível",
+  "ReleaseNotes": "Nova Atualização Disponível 2.0",
   "UrlUpdate": "https://raw.githubusercontent.com/Kryptorvps/MC4G/main/KF3CAMC4",
   "Sms": "https://raw.githubusercontent.com/Kryptorvps/MC4G/main/KF3CAMC4SMS",
   "EmailFeedback": jp9570750@gmail.com", 
@@ -259,8 +259,8 @@
       "Payload": "GET / HTTP/1.1[crlf]Host:[app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[lf][lf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
-      "ProxyPort": "2052",
+      "ProxyIP": "0.kf3.site",
+      "ProxyPort": "80",
       "Info": "Proxy"
     }, 
     {
