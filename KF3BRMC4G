@@ -1,6 +1,6 @@
 {
-  "Version": "6.0.0",
-  "ReleaseNotes": "Nova Atualização Disponível 6.0 update novo proxys",
+  "Version": "7.0.0",
+  "ReleaseNotes": "Nova Atualização Disponível 7.0 update novo proxys",
   "UrlUpdate": "https://raw.githubusercontent.com/Kryptorvps/MC4G/main/KF3BRMC4G",
   "Sms": "https://raw.githubusercontent.com/Kryptorvps/MC4G/main/KF3BRMC4GSMS",
   "EmailFeedback": @gmail.com", 
@@ -373,6 +373,16 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
+     {
+      "Name": "🟪V [WS7]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.6.80",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
     {
       "Name": "🟪V [WS8]",
       "FLAG": "vivo",
@@ -380,7 +390,7 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "www.alura.com.br",
-      "ProxyPort": "80",
+      "ProxyPort": "8080",
       "Info": "Proxy"
     },
     {
@@ -1013,7 +1023,7 @@
       "ProxyPort": "80",
       "Info": "Tlsws"
     },
-        {
+     {
       "Name": "🟧O [WS6]",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
