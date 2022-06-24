@@ -1,10 +1,10 @@
 {
-  "Version": "5.0.0",
-  "ReleaseNotes": "Nova Atualização Disponível 5.0 update novo proxys",
+  "Version": "6.0.0",
+  "ReleaseNotes": "Nova Atualização Disponível 6.0 update novo proxys",
   "UrlUpdate": "https://raw.githubusercontent.com/Kryptorvps/MC4G/main/KF3BRMC4G",
   "Sms": "https://raw.githubusercontent.com/Kryptorvps/MC4G/main/KF3BRMC4GSMS",
   "EmailFeedback": @gmail.com", 
-  "UrlContato": "https://wa.me/+5565",
+  "UrlContato": "https://wa.me/",
   "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
   "CheckUser": "true",
   "Udp":
@@ -15,18 +15,18 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "bc.kf3.site",
-      "CheckUser": "http://http://bc.kf3.site:4949/check/",
+      "CheckUser": "http://177.54.147.188:4949",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-    }    
+    }
   ],
   "Networks": [
     {
       "Name": "🟦🟪T V [SSL1]",
       "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://cdnjs.cloudflare.com  HTTP/1.1[crlf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "cdnjs.cloudflare.com",
       "TlsIP": "104.16.19.94",
       "ProxyIP": "",
@@ -36,7 +36,7 @@
     {
       "Name": "🟦🟪T V [SSL2]",
       "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://cdnjs.cloudflare.com  HTTP/1.1[crlf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "cdnjs.cloudflare.com",
       "TlsIP": "104.16.18.94",
       "ProxyIP": "",
@@ -46,7 +46,7 @@
     {
       "Name": "🟦T [SSL3]",
       "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://cdnjs.cloudflare.com  HTTP/1.1[crlf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "cdnjs.cloudflare.com",
       "TlsIP": "104.17.24.14",
       "ProxyIP": "",
@@ -56,9 +56,9 @@
     {
       "Name": "🟦T [SSL4]",
       "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "cdnjs.cloudflare.com",
-      "TlsIP": "104.17.25.14",
+      "Payload": "GET wss://blog.alura.com.br  HTTP/1.1[crlf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "blog.alura.com.br",
+      "TlsIP": "blog.alura.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -66,7 +66,37 @@
     {
       "Name": "🟦T [SSL5]",
       "FLAG": "tim",
-      "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET wss://www.alura.com.br  HTTP/1.1[crlf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "www.alura.com.br",
+      "TlsIP": "104.18.40.41",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟦T [SSL6]",
+      "FLAG": "tim",
+      "Payload": "GET wss://images-shielding.statically.io HTTP/1.1[crlf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "images-shielding.statically.io",
+      "TlsIP": "104.22.5.117",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟦T [SSL7]",
+      "FLAG": "tim",
+      "Payload": "GET wss://cdnjs.cloudflare.com  HTTP/1.1[crlf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "104.17.25.14",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟦T [SSL8]",
+      "FLAG": "tim",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "static.r4you.co",
       "TlsIP": "104.26.5.175",
       "ProxyIP": "",
@@ -74,9 +104,9 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟦T [SSL6]",
+      "Name": "🟦T [SSL9]",
       "FLAG": "tim",
-      "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "static.r4you.co",
       "TlsIP": "104.26.4.175",
       "ProxyIP": "",
@@ -84,9 +114,9 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟦T [SSL7]",
+      "Name": "🟦T [SSL10]",
       "FLAG": "tim",
-      "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "static.r4you.co",
       "TlsIP": "172.67.70.43",
       "ProxyIP": "",
@@ -94,41 +124,11 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟦T [SSL8]",
-      "FLAG": "tim",
-      "Payload": "GET ws://emartim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "emartim.com.br",
-      "TlsIP": "104.21.27.243",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🟦T [SSL9]",
-      "FLAG": "tim",
-      "Payload": "GET ws://emartim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "emartim.com.br",
-      "TlsIP": "172.67.169.216",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "🟦T [SSL10]",
-      "FLAG": "tim",
-      "Payload": "GET ws://cutim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "cutim.com.br",
-      "TlsIP": "104.21.4.149",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-        {
       "Name": "🟦T [SSL11]",
       "FLAG": "tim",
-      "Payload": "GET ws://cutim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "cutim.com.br",
-      "TlsIP": "172.67.154.49",
+      "Payload": "GET ws://emartim.com.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "emartim.com.br",
+      "TlsIP": "104.21.27.243",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -136,7 +136,37 @@
     {
       "Name": "🟦T [SSL12]",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET ws://emartim.com.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "emartim.com.br",
+      "TlsIP": "172.67.169.216",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟦T [SSL13]",
+      "FLAG": "tim",
+      "Payload": "GET ws://cutim.com.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "cutim.com.br",
+      "TlsIP": "104.21.4.149",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟦T [SSL14]",
+      "FLAG": "tim",
+      "Payload": "GET ws://cutim.com.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "cutim.com.br",
+      "TlsIP": "172.67.154.49",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟦T [SSL15]",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "[app_host]",
       "TlsIP": "104.16.51.111",
       "ProxyIP": "",
@@ -144,9 +174,9 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟦T [SSL13]",
+      "Name": "🟦T [SSL16]",
       "FLAG": "tim",
-      "Payload": "GET wss://rocketon-router-inbound.sdx.ton.com.br HTTP/1.0[lf]Host: bccc.premiernet.online[lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
+      "Payload": "GET wss://rocketon-router-inbound.sdx.ton.com.br HTTP/1.0[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "rocketon-router-inbound.sdx.ton.com.br",
       "TlsIP": "104.21.22.126",
       "ProxyIP": "",
@@ -154,9 +184,9 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟦T [SSL14]",
+      "Name": "🟦T [SSL17]",
       "FLAG": "tim",
-      "Payload": "GET wss://faq.recargapay.com.br HTTP/1.0[lf]Host: [app_host][lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
+      "Payload": "GET wss://faq.recargapay.com.br HTTP/1.0[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "faq.recargapay.com.br",
       "TlsIP": "172.67.165.192",
       "ProxyIP": "",
@@ -164,9 +194,9 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟦T [SSL15]",
+      "Name": "🟦T [SSL18]",
       "FLAG": "tim",
-      "Payload": "GET wss://faq.recargapay.com.br HTTP/1.0[lf]Host: [app_host][lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
+      "Payload": "GET wss://faq.recargapay.com.br HTTP/1.0[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "faq.recargapay.com.br",
       "TlsIP": "104.16.53.111",
       "ProxyIP": "",
@@ -174,9 +204,9 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟦T [SSL16]",
+      "Name": "🟦T [SSL19]",
       "FLAG": "tim",
-      "Payload": "GET wss://faq.recargapay.com.br HTTP/1.0[lf]Host: [app_host][lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
+      "Payload": "GET wss://faq.recargapay.com.br HTTP/1.0[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "faq.recargapay.com.br",
       "TlsIP": "104.16.51.111",
       "ProxyIP": "",
@@ -184,9 +214,9 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟦T [SSL17]",
+      "Name": "🟦T [SSL20]",
       "FLAG": "tim",
-      "Payload": "GET wss://www.partageshoppingbetim.com.br HTTP/1.0[lf]Host: [app_host][lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
+      "Payload": "GET wss://www.partageshoppingbetim.com.br HTTP/1.0[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "www.partageshoppingbetim.com.br",
       "TlsIP": "104.21.61.13",
       "ProxyIP": "",
@@ -194,9 +224,9 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟦T [SSL18]",
+      "Name": "🟦T [SSL21]",
       "FLAG": "tim",
-      "Payload": "GET wss://status.emartim.com.br HTTP/1.0[lf]Host: [app_host][lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
+      "Payload": "GET wss://status.emartim.com.br HTTP/1.0[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "status.emartim.com.br",
       "TlsIP": "104.21.27.243",
       "ProxyIP": "",
@@ -204,7 +234,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟦T [SSL19]",
+      "Name": "🟦T [SSL22]",
       "FLAG": "tim",
       "Payload": "GET wss://dev.sonartim.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "dev.sonartim.com.br",
@@ -214,7 +244,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟦T [SSL20]",
+      "Name": "🟦T [SSL23]",
       "FLAG": "tim",
       "Payload": "GET wss://www.lagoinhabetim.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "www.lagoinhabetim.com.br",
@@ -224,7 +254,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟦T [SSL22]",
+      "Name": "🟦T [SSL24]",
       "FLAG": "tim",
       "Payload": "GET wss://americovalentim.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "americovalentim.com.br",
@@ -234,7 +264,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟦T [SSL23]",
+      "Name": "🟦T [SSL25]",
       "FLAG": "tim",
       "Payload": "GET wss://cpanel.gvalentim.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "cpanel.gvalentim.com.br",
@@ -244,19 +274,19 @@
       "Info": "Tlsws"
     }, 
     {
-      "Name": "🟦TIM [WS1]",
+      "Name": "🟦TIM [WS26]",
       "FLAG": "tim",
-      "Payload": "GET ws://emartim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET ws://emartim.com.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "emartim.com.br",
       "TlsIP": "",
       "ProxyIP": "104.21.27.243",
       "ProxyPort": "80",
       "Info": "Tlsws"
     },
-        {
-      "Name": "🟦TIM [WS2]",
+    {
+      "Name": "🟦TIM [WS27]",
       "FLAG": "tim",
-      "Payload": "GET ws://emartim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET ws://emartim.com.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "emartim.com.br",
       "TlsIP": "",
       "ProxyIP": "172.67.169.216",
@@ -264,9 +294,9 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟦TIM [WS3]",
+      "Name": "🟦TIM [WS28]",
       "FLAG": "tim",
-      "Payload": "GET ws://cutim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET ws://cutim.com.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "cutim.com.br",
       "TlsIP": "",
       "ProxyIP": "104.21.4.149",
@@ -274,9 +304,9 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟦TIM [WS4]",
+      "Name": "🟦TIM [WS29]",
       "FLAG": "tim",
-      "Payload": "GET ws://cutim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET ws://cutim.com.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "cutim.com.br",
       "TlsIP": "",
       "ProxyIP": "172.67.154.49",
@@ -296,7 +326,7 @@
     {
       "Name": "🟪V [WS2]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[lf]Host:[app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: wss[crlf]Connection: Connection: Keep-Live\nUser-Agent:[ua]\nReferer: [lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.24.25.34",
@@ -306,125 +336,75 @@
     {
       "Name": "🟪V [WS3]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
-      "ProxyPort": "2052",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "🟪V [WS4]",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[lf]Host:[app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
-      "ProxyPort": "2082",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "🟪V [WS5]",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1\nHost: [app_host][\nUpgrade: ws\n\n",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.6.80",
-      "ProxyPort": "2087",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "🟪V [WS6]",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1\nHost: [app_host][\nUpgrade: ws\n\n",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.6.80",
-      "ProxyPort": "2095",
-      "Info": "Proxy"
-    },
-        {
-      "Name": "🟪V [WS7]",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1\nHost: [app_host][\nUpgrade: ws\n\n",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "162.159.136.63",
-      "ProxyPort": "2095",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "🟪V [WS8]",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "162.159.136.63",
-      "ProxyPort": "8080",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "🟪V [WS9]",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.19.94",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "🟪V [WS10]",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.18.94",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-	{
-      "Name": "🟪V [WS11]",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[lf]Host:[app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.24.10.16",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-	{
-      "Name": "🟪V [WS12]",
+    {
+      "Name": "🟪V [WS4]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.24.11.16",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-	{
-      "Name": "🟪V [WS13]",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "172.64.130.2",
+      "ProxyIP": "104.25.11.16",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
-      "Name": "🟪V [WS14]",
+      "Name": "🟪V [WS5]",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[lf]Host:[app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "172.64.131.2",
+      "ProxyIP": "104.18.7.80",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-	{
-      "Name": "🟪V [WS15]",
+    {
+      "Name": "🟪V [WS6]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.6.80",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🟪V [WS8]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "www.alura.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🟪V [WS9]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1\nHost: [app_host][\nUpgrade: ws\n\n[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "162.159.136.63",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🟪V [WS10]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "162.159.135.63",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🟪V [WS12]",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -433,8 +413,8 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-	{
-      "Name": "🟪V [WS16]",
+    {
+      "Name": "🟪V [WS13]",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -444,9 +424,89 @@
       "Info": "Proxy"
     },
     {
+      "Name": "🟪V [WS14]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.19.94",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🟪V [WS15]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.18.94",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🟪V [WS16]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "172.64.131.2",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🟪V [WS17]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "172.64.131.2",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🟪V [WS18]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "172.64.130.2",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🟪V [WS19]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "162.159.130.62",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🟪V [WS20]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "162.159.133.62",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🟪V [WS21]",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "vivo360.vivo.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
       "Name": "🟪V [SSL1]",
       "FLAG": "vivo",
-      "Payload": "GET wss://Vigia.vivo.com.br HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "Payload": "GET wss://Vigia.vivo.com.br HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
       "SNI": "Vigia.vivo.com.br",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
@@ -456,59 +516,59 @@
     {
       "Name": "🟪V [SSL2]",
       "FLAG": "vivo",
-      "Payload": "GET wss://autenticaint.vivo.com.br HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-      "SNI": "autenticaint.vivo.com.br",
-      "TlsIP": "162.159.135.63",
+      "Payload": "GET wss://vivo360.vivo.com.br HTTP/1.1[lf]Host:[app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "SNI": "vivo360.vivo.com.br",
+      "TlsIP": "104.18.6.80",
       "ProxyIP": "",
-      "ProxyPort": "2096",
+      "ProxyPort": "20",
       "Info": "Tlsws"
     },
     {
       "Name": "🟪V [SSL3]",
       "FLAG": "vivo",
-      "Payload": "GET wss://vivoemdia.vivo.com.br HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "Payload": "GET wss://vivoemdia.vivo.com.br HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
       "SNI": "vivoemdia.vivo.com.br",
       "TlsIP": "162.159.136.63",
       "ProxyIP": "",
-      "ProxyPort": "2096",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
       "Name": "🟪V [SSL4]",
       "FLAG": "vivo",
-      "Payload": "GET wss://vivo360.vivo.com.br HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "Payload": "GET wss://planos.vivo.com.br HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "SNI": "planos.vivo.com.br",
+      "TlsIP": "162.159.135.63",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟪V [SSL5]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://vivo360.vivo.com.br HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
       "SNI": "vivo360.vivo.com.br",
       "TlsIP": "104.18.6.80",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-	{
-      "Name": "🟪V [SSL5]",
+    {
+      "Name": "🟪V [SSL6]",
       "FLAG": "vivo",
-      "Payload": "GET wss://cdn.jsdelivr.net HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-      "SNI": "cdn.jsdelivr.net",
+      "Payload": "GET wss://cname.vivo.com.br HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "SNI": "cname.vivo.com.br",
       "TlsIP": "104.24.24.34",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-	{
-      "Name": "🟪V [SSL6]",
-      "FLAG": "vivo",
-      "Payload": "GET wss://cdn.jsdelivr.net HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-      "SNI": "cdn.jsdelivr.net",
-      "TlsIP": "104.24.25.34",
-      "ProxyIP": "",
-      "ProxyPort": "2096",
-      "Info": "Tlsws"
-    },
-	{
+    {
       "Name": "🟪V [SSL7]",
       "FLAG": "vivo",
-      "Payload": "GET wss://cdn.jsdelivr.net HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-      "SNI": "cdn.jsdelivr.net",
-      "TlsIP": "104.24.10.16",
+      "Payload": "GET wss://cname.vivo.com.br HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "SNI": "cname.vivo.com.br",
+      "TlsIP": "104.24.25.34",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -516,27 +576,27 @@
     {
       "Name": "🟪V [SSL8]",
       "FLAG": "vivo",
-      "Payload": "GET wss://www.tragedyinfo.com HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-      "SNI": "www.tragedyinfo.com",
-      "TlsIP": "172.64.130.2",
+      "Payload": "GET wss://www.alura.com.br HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "SNI": "www.alura.com.br",
+      "TlsIP": "104.24.10.16",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-	{
+    {
       "Name": "🟪V [SSL9]",
       "FLAG": "vivo",
-      "Payload": "GET wss://www.tragedyinfo.com HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
-      "SNI": "www.tragedyinfo.com",
-      "TlsIP": "172.64.131.2",
+      "Payload": "GET wss://help.livestream.com HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "SNI": "help.livestream.com",
+      "TlsIP": "104.25.10.16",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-	{
+    {
       "Name": "🟪V [SSL10]",
       "FLAG": "vivo",
-      "Payload": "GET wss://www.tragedyinfo.com HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "Payload": "GET wss://www.tragedyinfo.com HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
       "SNI": "www.tragedyinfo.com",
       "TlsIP": "172.64.194.2",
       "ProxyIP": "",
@@ -546,7 +606,7 @@
 	{
       "Name": "🟪V [SSL11]",
       "FLAG": "vivo",
-      "Payload": "GET wss://www.tragedyinfo.com HTTP/1.1[lf]Host: bc.kf3.site[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "Payload": "GET wss://www.tragedyinfo.com HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
       "SNI": "www.tragedyinfo.com",
       "TlsIP": "172.64.195.2",
       "ProxyIP": "",
@@ -554,7 +614,127 @@
       "Info": "Tlsws"
     },
     {
+      "Name": "🟪V [SSL12]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://www.tragedyinfo.com HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "SNI": "www.tragedyinfo.com",
+      "TlsIP": "172.64.194.2",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟪V [SSL13]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://money-staging.infinitepay.io HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "SNI": "money-staging.infinitepay.io",
+      "TlsIP": "172.64.131.2",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟪V [SSL14]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://carrinho-pos-familia.vivo.com.br HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "SNI": "carrinho-pos-familia.vivo.com.br",
+      "TlsIP": "172.64.130.2",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟪V [SSL15]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://planos.vivo.com.br  HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "SNI": "planos.vivo.com.br",
+      "TlsIP": "162.159.130.62",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟪V [SSL16]",
+      "FLAG": "vivo",
+      "Payload": "GET wss://auth.vivo.com.br HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[crlf][crlf]",
+      "SNI": "auth.vivo.com.br ",
+      "TlsIP": "162.159.133.62",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
       "Name": "🟥C [SSL1]",
+      "FLAG": "claro",
+      "Payload": "GET wss://vimeo.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "vimeo.livestream.com",
+      "TlsIP": "vimeo.livestream.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟥C [SSL2]",
+      "FLAG": "claro",
+      "Payload": "GET wss://1674401.mediaspace.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "1674401.mediaspace.kaltura.com",
+      "TlsIP": "1674401.mediaspace.kaltura.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟥C [SSL3]",
+      "FLAG": "claro",
+      "Payload": "GET wss://1758271-1.mediaspace.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "1758271-1.mediaspace.kaltura.com",
+      "TlsIP": "1758271-1.mediaspace.kaltura.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟥C [SSL4]",
+      "FLAG": "claro",
+      "Payload": "GET wss://lp.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "lp.livestream.com",
+      "TlsIP": "lp.livestream.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟥C [SSL5]",
+      "FLAG": "claro",
+      "Payload": "GET wss://4.icanhazip.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "4.icanhazip.com",
+      "TlsIP": "4.icanhazip.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟥C [SSL6]",
+      "FLAG": "claro",
+      "Payload": "GET wss://community.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "community.kaltura.com",
+      "TlsIP": "community.kaltura.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟥C [SSL7]",
+      "FLAG": "claro",
+      "Payload": "GET wss://go.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "go.kaltura.com",
+      "TlsIP": "go.kaltura.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "🟥C [SSL8]",
       "FLAG": "claro",
       "Payload": "GET wss://api.new.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "api.new.livestream.com",
@@ -564,7 +744,7 @@
       "Info": "Tlsws"
    },
    {
-      "Name": "🟥C [SSL2]",
+      "Name": "🟥C [SSL9]",
       "FLAG": "claro",
       "Payload": "GET wss://icanhazip.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "icanhazip.com",
@@ -574,7 +754,7 @@
       "Info": "Tlsws"
    },
    {
-      "Name": "🟥C [SSL3]",
+      "Name": "🟥C [SSL10]",
       "FLAG": "claro",
       "Payload": "GET wss://www.boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "www.boom4u.com.br",
@@ -584,7 +764,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥C [SSL4]",
+      "Name": "🟥C [SSL11]",
       "FLAG": "claro",
       "Payload": "GET wss://www.boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "172.67.201.105",
@@ -594,7 +774,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥C [SSL5]",
+      "Name": "🟥C [SSL12]",
       "FLAG": "claro",
       "Payload": "GET wss://www.boom4u.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "104.21.21.236",
@@ -604,7 +784,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥C [SSL6]",
+      "Name": "🟥C [SSL13]",
       "FLAG": "claro",
       "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
@@ -614,7 +794,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥C [SSL7]",
+      "Name": "🟥C [SSL14]",
       "FLAG": "claro",
       "load": "GET ssl://gersonclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "gersonclaro.com.br",
@@ -624,7 +804,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥C [SSL8]",
+      "Name": "🟥C [SSL15]",
       "FLAG": "claro",
       "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
@@ -634,7 +814,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥C [SSL8]",
+      "Name": "🟥C [SSL16]",
       "FLAG": "claro",
       "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
@@ -644,7 +824,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥C [SSL10]",
+      "Name": "🟥C [SSL17]",
       "FLAG": "claro",
       "Payload": "GET wss://carrorioclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "carrorioclaro.com.br",
@@ -654,7 +834,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥C [SSL11]",
+      "Name": "🟥C [SSL18]",
       "FLAG": "claro",
       "Payload": "GET ssl://chaveiroclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "chaveiroclaro.com.br",
@@ -664,7 +844,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥C [SSL12]",
+      "Name": "🟥C [SSL19]",
       "FLAG": "claro",
       "Payload": "GET wss://parceirosclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "parceirosclaro.com.br",
@@ -674,7 +854,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥C [SSL13]",
+      "Name": "🟥C [SSL20]",
       "FLAG": "claro",
       "Payload": "GET wss://fozrioclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "fozrioclaro.com.br",
@@ -684,7 +864,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥C [SSL14]",
+      "Name": "🟥C [SSL21]",
       "FLAG": "claro",
       "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
@@ -694,7 +874,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥C [SSL15]",
+      "Name": "🟥C [SSL22]",
       "FLAG": "claro",
       "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
@@ -704,7 +884,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥🟪🟦C V T [SSL16]",
+      "Name": "🟥🟪🟦C V T [SSL23]",
       "FLAG": "claro",
       "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
@@ -714,7 +894,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥C [SSL16]",
+      "Name": "🟥C [SSL24]",
       "FLAG": "claro",
       "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "content.akross.com.br",
@@ -724,7 +904,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥C [SSL17]",
+      "Name": "🟥C [SSL25]",
       "FLAG": "claro",
       "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "content.akross.com.br",
@@ -734,7 +914,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥C [SSL18]",
+      "Name": "🟥C [SSL26]",
       "FLAG": "claro",
       "Payload": "GET ssl://gersonclaro.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "gersonclaro.com.br",
@@ -744,7 +924,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟥C [SSL19]",
+      "Name": "🟥C [SSL27]",
       "FLAG": "claro",
       "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "content.akross.com.br",
@@ -754,7 +934,7 @@
       "Info": "Tlsws"
     },
 	{
-      "Name": "🟥C [SSL20]",
+      "Name": "🟥C [SSL28]",
       "FLAG": "claro",
       "Payload": "GET wss://ct.livestream.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "ct.livestream.com",
@@ -763,20 +943,10 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
-	{
-      "Name": "🟥C [SSL21]",
-      "FLAG": "claro",
-      "Payload": "GET wss://1674401.mediaspace.kaltura.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
-      "SNI": "1674401.mediaspace.kaltura.com",
-      "TlsIP": "1674401.mediaspace.kaltura.com",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
     {
       "Name": "🟧O [SSL1]",
       "FLAG": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "www.hbogo.com.br",
       "TlsIP": "www.hbogo.com.br",
       "ProxyIP": "",
@@ -786,7 +956,7 @@
     {
       "Name": "🟧O [SSL2]",
       "FLAG": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "www.hbogo.com.br",
       "TlsIP": "104.16.53.91",
       "ProxyIP": "",
@@ -796,7 +966,7 @@
     {
       "Name": "🟧O V [WS1]",
       "FLAG": "oi",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "mobilidade.cloud.caixa.gov.br",
@@ -806,7 +976,7 @@
     {
       "Name": "🟧O V [WS2]",
       "FLAG": "oi",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.57.6",
@@ -816,7 +986,7 @@
     {
       "Name": "🟧O V [WS3]",
       "FLAG": "oi",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.56.6",
@@ -826,7 +996,7 @@
     {
       "Name": "🟧O [WS4]",
       "FLAG": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "www.hbogo.com.br",
@@ -836,7 +1006,7 @@
         {
       "Name": "🟧O [WS5]",
       "FLAG": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.51.91",
@@ -846,7 +1016,7 @@
         {
       "Name": "🟧O [WS6]",
       "FLAG": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.52.91",
@@ -856,7 +1026,7 @@
     {
       "Name": "🟧O [WS7]",
       "FLAG": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.53.91",
